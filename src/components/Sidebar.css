@@ -1,0 +1,54 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    font-family: "Open Sans", sans-serif;
+    border-color: #16295d;
+}
+
+.sidebar-content{
+    margin-top: 5rem;
+}
+
+.sidebar h2 {
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+.sidebar div {
+    margin-bottom: 10px;
+}
+
+.sidebar input {
+    margin-right: 10px;
+}
+
+.custom-button1 {
+        background-color: rgb(238, 238, 238);         /* White background */
+        color: black;                    /* Black text */
+        border: none;         /* Black border */
+        padding: 0.5rem 1rem;              /* Padding */
+        text-align: center;              /* Centered text */
+        text-decoration: none;           /* No underline */
+        display: inline-block;           /* Inline-block */
+        font-size: 14px;                 /* Font size */
+        margin: 4px 2px;                 /* Margin */
+        cursor: pointer;                 /* Pointer cursor on hover */
+        border-radius: 12px;             /* Rounded corners */
+        transition: background 0.3s, color 0.3s;  /* Smooth transition for background and text color */
+}
+
+.custom-button1:hover {
+    background: linear-gradient(to right, #16295d, #1f5582);  /* Gradient blue background on hover */
+    color: white;                                            /* White text on hover */
+    border-color: transparent;                               /* Hide border on hover */
+}
+
+.check-box{
+    transform: scale(1.5);
+    background-color: #16295d
+}

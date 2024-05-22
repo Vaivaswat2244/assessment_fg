@@ -1,0 +1,106 @@
+
+
+body {
+  
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+ 
+}
+
+
+.navbar {
+  color: #fff;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.image-section{
+  background-image: url(https://t3.ftcdn.net/jpg/03/99/09/66/360_F_399096694_rI4J6yHpEaijvG36k8ybRFrqKpKp6pOn.jpg);
+  
+  background-size: cover; /* or contain, 100% 100%, etc. */
+  background-position: center;
+  width: 100%;
+  height: 30%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+
+.image-section p{
+  margin-left: 43%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.image-section a{
+  margin-left: 38%;
+  
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+
+
+.main-section {
+  
+  
+  
+  display: flex;
+  flex-grow: 1;
+}
+
+.sub-section{
+  margin-left: 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.content {
+  padding: 20px;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.content h2 {
+  margin-top: 0;
+}
+
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Merriweather', serif;
+  
+}
+.sidebar {
+  width: 20%;
+  padding: 20px;
+  border-right: 1px solid #130b51;
+  
+  
+  
+}
+.main-content {
+  display: flex;
+  flex-direction: row; /* Ensure children are arranged in a row */
+  align-items: flex-start; /* Align items at the top */
+}
+
+
+
+
+

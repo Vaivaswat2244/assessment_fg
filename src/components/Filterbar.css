@@ -1,0 +1,101 @@
+.filterbar{
+    margin-top: 5rem;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    
+    
+    border-radius: 2rem;
+    width: auto;
+}
+
+.instant{
+    margin-right: 38rem;
+    margin-bottom: 4px;
+    height: 73px;
+    display: flex;
+    
+    align-items: center;
+    
+    background-color: rgb(238, 238, 238); 
+    border-radius: 2rem;        /* White background */
+
+    
+}
+
+.instant:hover {
+    background: linear-gradient(to right, #16295d, #1f5582);  /* Gradient blue background on hover */
+    color: white;                                            /* White text on hover */
+    border-color: transparent;                               /* Hide border on hover */
+}
+
+.checkbox-container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+.checkbox-input {
+    
+    margin-left: 0.75rem;
+    margin-top: 0.35rem;
+    transform: scale(1.25);
+    
+}
+
+.checkbox-label {
+    flex-grow: 1;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.status-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.status-button:hover {
+    background-color: #0056b3;
+}
+
+.date{
+    margin-left: 5rem;
+    background-color: rgb(238, 238, 238);         /* White background */
+    border-radius: 2rem;
+}
+
+.date:hover {
+    background: linear-gradient(to right, #16295d, #1f5582);  /* Gradient blue background on hover */
+    color: white;                                            /* White text on hover */
+    border-color: transparent;                               /* Hide border on hover */
+}
+
+
+.date p{
+    margin-top: 0.5rem;
+    margin-left: 2.75rem;
+}
+
+
+
